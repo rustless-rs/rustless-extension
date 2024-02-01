@@ -1,4 +1,4 @@
-# rustless README
+# Rustless README
 
 This is the README for your extension "rustless". After writing up a brief description, we recommend including the following sections.
 这是插件 rustless 的 README。在写了一个简短的描述之后，我们建议包括以下部分。

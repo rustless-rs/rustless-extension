@@ -1,8 +1,8 @@
 {
     "name": "rustless",
-    "displayName": "rustless",
+    "displayName": "Rustless",
     "description": "rustless",
-    "version": "0.0.1",
+    "version": "0.0.1-alpha",
     "engines": {
         "vscode": "^1.85.0"
     },
