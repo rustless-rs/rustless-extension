@@ -1,16 +1,35 @@
 {
-	"compilerOptions": {
-		"module": "Node16",
-		"target": "ES2022",
-		"lib": [
-			"ES2022"
-		],
-		"sourceMap": true,
-		"rootDir": "src",
-		"strict": true   /* enable all strict type-checking options */
-		/* Additional Checks */
-		// "noImplicitReturns": true, /* Report error when not all code paths in function return a value. */
-		// "noFallthroughCasesInSwitch": true, /* Report errors for fallthrough cases in switch statement. */
-		// "noUnusedParameters": true,  /* Report errors on unused parameters. */
-	}
+    "compilerOptions": {
+        "module": "Node16",
+        "target": "ES2022",
+        "lib": ["ES2022"],
+        "sourceMap": true,
+        "rootDir": "src",
+        "strict": true /* enable all strict type-checking options 启用严格类型检查 */,
+        /* Additional Checks 其他检查 */
+        // "noImplicitReturns": true /* Report error when not all code paths in function return a value. 当不是函数中的所有代码路径都返回值时报告错误。*/,
+        // "noFallthroughCasesInSwitch": true /* Report errors for fallthrough cases in switch statement. 在 switch 语句中发生穿透时报告错误。 */,
+        // "noUnusedParameters": true /* Report errors on unused parameters. 未使用参数报告错误 */,
+
+        /* Type Checking */
+        // "strict": true /* Enable all strict type-checking options. */,
+        "noImplicitAny": true /* Enable error reporting for expressions and declarations with an implied 'any' type. 为带有隐含'any'类型的表达式和声明启用错误报告。 */,
+        "strictNullChecks": true /* When type checking, take into account 'null' and 'undefined'. 在进行类型检查时，要考虑 'null' 和 'undefined'。*/,
+        "strictFunctionTypes": true /* When assigning functions, check to ensure parameters and the return values are subtype-compatible. 在分配函数时，检查以确保参数和返回值是子类型兼容的。*/,
+        "strictBindCallApply": true /* Check that the arguments for 'bind', 'call', and 'apply' methods match the original function. 检查 'bind', 'call' 和 'apply' 方法的参数是否与原始函数匹配。 */,
+        "strictPropertyInitialization": true /* Check for class properties that are declared but not set in the constructor. 检查在构造函数中声明但未设置的类属性。 */,
+        "noImplicitThis": true /* Enable error reporting when 'this' is given the type 'any'. 当给'this'类型'any'时启用错误报告。*/,
+        // "useUnknownInCatchVariables": true /* Default catch clause variables as 'unknown' instead of 'any'. 默认catch子句变量为'unknown'而不是'any'。*/,
+        "alwaysStrict": true /* Ensure 'use strict' is always emitted. 确保总是触发 'use strict'。*/,
+        "noUnusedLocals": true /* Enable error reporting when local variables aren't read. 在不使用局部变量时启用错误报告。*/,
+        "noUnusedParameters": true /* Raise an error when a function parameter isn't read. 当未读取函数参数时引发错误。*/,
+        // "exactOptionalPropertyTypes": true,               /* Interpret optional property types as written, rather than adding 'undefined'. 解释可选属性类型为写入的，而不是添加'undefined'。 */
+        "noImplicitReturns": true /* Enable error reporting for code paths that do not explicitly return in a function. 当不是函数中的所有代码路径都返回值时报告错误。 */,
+        "noFallthroughCasesInSwitch": true /* Enable error reporting for fallthrough cases in switch statements. 在 switch 语句中发生穿透时报告错误 */,
+        "noUncheckedIndexedAccess": true /* Add 'undefined' to a type when accessed using an index. 当使用索引访问时，向类型添加'undefined'。*/,
+        "noImplicitOverride": true /* Ensure overriding members in derived classes are marked with an override modifier. 确保用重写修饰符标记派生类中的重写成员。 */,
+        "noPropertyAccessFromIndexSignature": true /* Enforces using indexed accessors for keys declared using an indexed type. 强制对使用索引类型声明的键使用索引访问器。 */,
+        // "allowUnusedLabels": true /* Disable error reporting for unused labels. 禁用未使用标签的错误报告。 */,
+        // "allowUnreachableCode": true /* Disable error reporting for unreachable code. 禁用不可达代码的错误报告。*/,
+    },
 }
