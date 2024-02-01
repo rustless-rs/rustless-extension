@@ -1,6 +1,6 @@
-# rustless README
+# Rustless README
 
-This is the README for your extension "rustless". After writing up a brief description, we recommend including the following sections.
+This is the README for your extension "Rustless". After writing up a brief description, we recommend including the following sections.
 
 ## Features
 

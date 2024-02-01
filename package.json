@@ -1,7 +1,7 @@
 {
-    "name": "rustless",
-    "displayName": "rustless",
-    "description": "rustless",
+    "name": "Rustless",
+    "displayName": "Rustless",
+    "description": "Rustless",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.85.0"
