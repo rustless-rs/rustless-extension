@@ -1,26 +1,37 @@
 // The module 'vscode' contains the VS Code extensibility API
+// vscode 模块包含了 VS Code 插件 API
 // Import the module and reference it with the alias vscode in your code below
+// 导入 vscode 模块并用 vscode 别名使用
 import * as vscode from 'vscode';
 
 // This method is called when your extension is activated
+// 本方法会在插件被启用的时候调用
 // Your extension is activated the very first time the command is executed
+// 每次该命令执行完毕则插件被启用
 export function activate(context: vscode.ExtensionContext) {
-
-	// Use the console to output diagnostic information (console.log) and errors (console.error)
-	// This line of code will only be executed once when your extension is activated
+    // Use the console to output diagnostic information (console.log) and errors (console.error)
+    // 使用控制台输出诊断信息 (console.log) 和错误 (console.error)。
+    // This line of code will only be executed once when your extension is activated
+    // 当插件被启用时，这行代码将只执行一次
     console.log('Congratulations, your extension "rustless" is now active!');
 
-	// The command has been defined in the package.json file
-	// Now provide the implementation of the command with registerCommand
-	// The commandId parameter must match the command field in package.json
-	let disposable = vscode.commands.registerCommand('rustless.helloWorld', () => {
-		// The code you place here will be executed every time your command is executed
-		// Display a message box to the user
+    // The command has been defined in the package.json file
+    // 该命令被定义在 package.json 文件
+    // Now provide the implementation of the command with registerCommand
+    // 现在提供命令的实现，使用 registerCommand 方法注册
+    // The commandId parameter must match the command field in package.json
+    // commandId 参数一定要和 package.json 文件中的 command 相匹配
+    let disposable = vscode.commands.registerCommand('rustless.helloWorld', () => {
+        // The code you place here will be executed every time your command is executed
+        // 每次命令被执行时，下面的代码都会被执行
+        // Display a message box to the user
+        // 向显示一个消息框
         vscode.window.showInformationMessage('Hello World from rustless!');
-	});
+    });
 
-	context.subscriptions.push(disposable);
+    context.subscriptions.push(disposable);
 }
 
 // This method is called when your extension is deactivated
+// 本方法会在插件被禁用时调用
 export function deactivate() {}

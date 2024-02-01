@@ -11,7 +11,7 @@
 * `src/extension.ts` - this is the main file where you will provide the implementation of your command.
 * `src/extension.ts` - 这是主文件，你将在其中提供命令的实现。
   * The file exports one function, `activate`, which is called the very first time your extension is activated (in this case by executing the command). Inside the `activate` function we call `registerCommand`.
-  * 此文件导出一个 `activate` 函数, 该函数在每次你的插件被第一次激活（此示例中是执行了命令）的时候调用。在 `activate` 函数中，我们调用了 `registerCommand` 函数。
+  * 此文件导出一个 `activate` 函数, 该函数在每次你的插件被第一次启用（此示例中是执行了命令）的时候调用。在 `activate` 函数中，我们调用了 `registerCommand` 函数。
   * We pass the function containing the implementation of the command as the second parameter to `registerCommand`.
   * 我们将包含命令实现的函数作为第二个参数传递给 `registerCommand`。
 
