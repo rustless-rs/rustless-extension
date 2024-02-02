@@ -25,11 +25,18 @@ export function activate(context: vscode.ExtensionContext) {
         // The code you place here will be executed every time your command is executed
         // 每次命令被执行时，下面的代码都会被执行
         // Display a message box to the user
-        // 向显示一个消息框
-        vscode.window.showInformationMessage('Hello World from rustless!');
+        // 显示一个消息框
+        let message = 'Hello World from rustless!';
+        vscode.window.showInformationMessage(message);
     });
 
     context.subscriptions.push(disposable);
+
+    let disposable2 = vscode.commands.registerCommand('rustless.helloWorld2', () => {
+        vscode.window.showWarningMessage(`now: ${new Date()}`);
+    });
+
+    context.subscriptions.push(disposable2);
 }
 
 // This method is called when your extension is deactivated

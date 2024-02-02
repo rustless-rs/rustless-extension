@@ -11,6 +11,8 @@
         // "noFallthroughCasesInSwitch": true /* Report errors for fallthrough cases in switch statement. 在 switch 语句中发生穿透时报告错误。 */,
         // "noUnusedParameters": true /* Report errors on unused parameters. 未使用参数报告错误 */,
 
+        "allowJs": false,
+
         /* Type Checking */
         // "strict": true /* Enable all strict type-checking options. */,
         "noImplicitAny": true /* Enable error reporting for expressions and declarations with an implied 'any' type. 为带有隐含'any'类型的表达式和声明启用错误报告。 */,

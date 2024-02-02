@@ -16,6 +16,10 @@
             {
                 "command": "rustless.helloWorld",
                 "title": "Hello World"
+            },
+            {
+                "command": "rustless.helloWorld2",
+                "title": "Hello World 2"
             }
         ]
     },
