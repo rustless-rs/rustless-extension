@@ -3,6 +3,8 @@
     "displayName": "Rustless",
     "description": "rustless",
     "version": "0.0.1-alpha",
+    "publisher": "rustless",
+    "repository": "https://github.com/rustless-rs/rustless-extension",
     "engines": {
         "vscode": "^1.85.0"
     },
